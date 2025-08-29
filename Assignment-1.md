@@ -1,4 +1,4 @@
-# Assignment: Sorting an Array
+# Assignment: 1.1 Sorting an Array
 
 ## My Lab Objective
 Sort an array in **descending order**.
