@@ -46,7 +46,7 @@ public class Main {
 ```
 
 
-# Example Run
+# My Re-Written Example
 
 Input: 6 8 3 15 1 22 7
 
