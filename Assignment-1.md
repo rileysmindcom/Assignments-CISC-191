@@ -51,7 +51,7 @@ Output: 22, 15, 8, 7, 3, 1
 ![Assignment_ Flowchart Sorting an Array](https://github.com/user-attachments/assets/c11e6c0e-f018-4ea9-945f-aaa3b66815aa)
 
 
-# Here is my Video. From Google Drive Public to See me cover Stuff
+# Here is my Video. From Google Drive Shared Public.
 
 https://drive.google.com/file/d/1cdSZDtkV2xnl0O083VstjfX8Z9l65iZs/view?usp=sharing
 
