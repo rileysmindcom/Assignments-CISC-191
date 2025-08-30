@@ -50,14 +50,13 @@ Output: 22, 15, 8, 7, 3, 1
 
 ![Assignment_ Flowchart Sorting an Array](https://github.com/user-attachments/assets/c11e6c0e-f018-4ea9-945f-aaa3b66815aa)
 
-
-# Here is my Video. From Google Drive Shared Public.
-
-https://drive.google.com/file/d/1cdSZDtkV2xnl0O083VstjfX8Z9l65iZs/view?usp=sharing
-
 # Why did I select this specific sorting algorithm?
 I saw the bubble sort algorithm as an easy method to implement for small arrays. Because the assignment has fewer than 20 elements, this allowed me to sort out the arrays in descending order.
 
 # Challenges Faced
 The challenges I faced were sorting things in descending order rather than ascending order. I saw that it was important to adjust the conditions by using comparison so the large numbers would come first.
+
+# Here is my Video. From Google Drive Shared Public.
+
+https://drive.google.com/file/d/1cdSZDtkV2xnl0O083VstjfX8Z9l65iZs/view?usp=sharing
 
