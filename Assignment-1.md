@@ -9,13 +9,11 @@ Recall `sortArray(int[] myArr, int arrSize)` in Java.
 ## This is my Assignment 1.1 Code
 
 ```java
-import java.util.Scanner;
-
 public class Main {
     public static void sortArray(int[] myArr, int arrSize) {
         for (int i = 0; i < arrSize - 1; i++) {
             for (int j = 0; j < arrSize - i - 1; j++) {
-                if (myArr[j] < myArr[j + 1]) {
+                if (myArr[j] < myArr[j + 1]) { // Descending order
                     int temp = myArr[j];
                     myArr[j] = myArr[j + 1];
                     myArr[j + 1] = temp;
@@ -25,17 +23,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int arrSize = sc.nextInt();   
-        int[] myArr = new int[arrSize];
-
-        for (int i = 0; i < arrSize; i++) {
-            myArr[i] = sc.nextInt();
-        }
+        // Hardcoded input for demonstration
+        int[] myArr = {8, 3, 15, 1, 22, 7};
+        int arrSize = myArr.length;
 
         sortArray(myArr, arrSize);
 
+        // Print sorted array
         for (int i = 0; i < arrSize; i++) {
             if (i > 0) System.out.print(",");
             System.out.print(myArr[i]);
