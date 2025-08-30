@@ -52,8 +52,8 @@ Output: 22, 15, 8, 7, 3, 1
 
 
 # Why did I select this specific sorting algorithm?
-I chose this specific algorithm because it was a simple and easy approach when I decided to implement small arrays. In my case, there were fewer than 20 elements for its requirements. This approach aims to achieve the lab objectives based on this assignment.
+I saw the bubble sort algorithm as an easy method to implement for small arrays. Because the assignment has fewer than 20 elements, this allowed me to sort out the arrays in descending order.
 
 # Challenges Faced
-Some of the challenges I faced were sorting things in descending order rather than ascending order. I saw that it was important to adjust the conditions by using comparison so the large numbers would come first.
+The challenges I faced were sorting things in descending order rather than ascending order. I saw that it was important to adjust the conditions by using comparison so the large numbers would come first.
 
