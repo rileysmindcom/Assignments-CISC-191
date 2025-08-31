@@ -46,7 +46,8 @@ Input:
 
 Output:
 
-``` Cat 3
+```
+Cat 3
 bird 3
 cat 3
 Bird 3
