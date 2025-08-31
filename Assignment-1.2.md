@@ -68,3 +68,5 @@ If I had to develop a frequency analysis website. I would extract the website by
 Some of the challenges were comparing making a case-insensitive so that words like cat, Cat, and CAT counted the same by using equalsIgnoreCase(). Using Loop correctness, which makes sure the loop travels from every word in the array that counts to these occurrences. And then, understanding the repeated output of the program by looking at every word multiple times as an output.
 
 # Assignment Video
+
+https://drive.google.com/file/d/19JalwqNNkRz5qoyx78tWxRXqWYPUDFhz/view?usp=drive_link
