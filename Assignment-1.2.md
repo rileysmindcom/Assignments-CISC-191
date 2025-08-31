@@ -56,6 +56,7 @@ bird 3
 
 ## Flowchart
 
+![Assignment 1 2 Word Frequences Flowchart](https://github.com/user-attachments/assets/a7c6e7c6-d7dc-4480-ad26-0cc8e93c13b1)
 
 ## Frequency Analysis of a Website
 
