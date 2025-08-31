@@ -10,8 +10,6 @@ This allows for how many times currWord appears within the list of words
 
 # This is my Assignment 1.2 Code
 ```
-import java.util.Scanner;
-
 public class Main {
 
     public static int getWordFrequency(String[] wordsList, int listSize, String currWord) {
@@ -25,9 +23,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        String input = sc.nextLine();
+        String input = "Cat bird cat Bird CAT bird";
 
         String[] wordsList = input.split(" ");
         int listSize = wordsList.length;
@@ -37,8 +34,6 @@ public class Main {
             int freq = getWordFrequency(wordsList, listSize, currWord);
             System.out.println(currWord + " " + freq);
         }
-
-        sc.close();
     }
 }
 ```
