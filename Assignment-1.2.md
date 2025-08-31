@@ -1,7 +1,7 @@
 
 # Assignment: 1.2 Word Frequencies
 
-## My Lab Objective
+## Lab Objective
 Recall by counting the number of times a word appears between any array of words. The method for the assignment is:
 
 ``` public static int getWordFrequency(String[] wordsList, int listSize, String currWord) ```
