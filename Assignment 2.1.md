@@ -77,6 +77,7 @@ public class IncomeTaxMain {
 }
 ```
 ## My Flowchart
+![2 1 Assignment_ 1 2 Salary and Tax Calculation](https://github.com/user-attachments/assets/622ef244-28f1-4426-afa0-b7403eadc3cb)
 
 ## Challenges Faced
 First I had to ensure the main program was linked to the TaxTableTools class because the tax tables took extra time to review. Then I solved it by adding a method that constructed the overload. I ran into some bugs where salary and rate tables experienced different lengths. Which may have gotten me error messages on the first tries, until I figured out the issue. My third challenge on my third attempt was remembering how many times to test multiple salaries, such as 10000, 50000, 50001, 100001, and -1, making sure those ranges were correct. 
