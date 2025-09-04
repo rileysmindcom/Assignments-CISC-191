@@ -2,7 +2,7 @@
 
 ## My Lab Objective
 
-Recall by using setters, a Java class, and constructor overloading to solve the tax rate, and calculate the tax to pay for the given annual salary.
+Recall by using a Java class, and constructor overloading to solve the tax rate, and calculate the tax amount to pay for the given annual salary.
 
 This is my Assignment 1.2 Code
 TaxTableTools.java
@@ -80,6 +80,6 @@ public class IncomeTaxMain {
 ![2 1 Assignment_ 1 2 Salary and Tax Calculation](https://github.com/user-attachments/assets/622ef244-28f1-4426-afa0-b7403eadc3cb)
 
 ## Challenges Faced
-First I had to ensure the main program was linked to the TaxTableTools class because the tax tables took extra time to review. Then I solved it by adding a method that constructed the overload. I ran into some bugs where salary and rate tables experienced different lengths. Which may have gotten me error messages on the first tries, until I figured out the issue. My third challenge on my third attempt was remembering how many times to test multiple salaries, such as 10000, 50000, 50001, 100001, and -1, making sure those ranges were correct. 
+First was to insure the program was attached to TaxTableTools class because tax tables took extra time to review. Then I added a method that constructed the overload. There were some bugs at the beginning where salary and rate tables experienced different lengths. Which, may have gotten me error messages on the first tries, until I figured out the issue. My third challenge overall was remembering how many times to test multiple salaries, such as 10000, 50000, 50001, 100001, and -1. In the output of the console that determines the amount of tax needed to pay. And, my fourth was making sure those ranges were correct. 
 
 ## My Assignment Video
