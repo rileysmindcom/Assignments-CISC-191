@@ -2,7 +2,7 @@
 
 ## My Lab Objective
 
-Recall by using a Java class, and constructor overloading to solve the tax rate, and calculate the tax amount to pay for the given annual salary.
+Recall by using Setters, Java classes, and constructor overloading to solve the tax rate, and calculate the tax amount to pay for the given annual salary.
 
 This is my Assignment 1.2 Code
 TaxTableTools.java
