@@ -1,4 +1,4 @@
-# Assignment: 1.2 Salary and Tax Calculation
+# Assignment: 2.1 Salary and Tax Calculation
 
 ## My Lab Objective
 
