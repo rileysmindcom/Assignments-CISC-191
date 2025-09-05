@@ -82,4 +82,6 @@ public class IncomeTaxMain {
 ## Challenges Faced
 First was to insure the program was attached to TaxTableTools class because tax tables took extra time to review. Then I added a method that constructed the overload. There were some bugs at the beginning where salary and rate tables experienced different lengths. Which, may have gotten me error messages on the first tries, until I figured out the issue. My third challenge overall was remembering how many times to test multiple salaries, such as 10000, 50000, 50001, 100001, and -1. In the output of the console that determines the amount of tax needed to pay. And, my fourth was making sure those ranges were correct. 
 
-## My Assignment Video
+## My Assignment Video Link:
+
+https://drive.google.com/file/d/1Gs28DL8fUSjspr14H74DCW7EZeboNO7o/view?usp=drive_link
