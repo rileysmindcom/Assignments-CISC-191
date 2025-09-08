@@ -40,6 +40,7 @@ public class MemoryManagementDemo {
 ```
 
 ## My Flowchart
+![3 1 Memory Management Using Classes](https://github.com/user-attachments/assets/81e0f311-a7d5-42e3-982f-df1607eb4028)
 
 
 ## Challenges Faced
