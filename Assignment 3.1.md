@@ -18,13 +18,12 @@ public class MemoryManagementDemo {
         System.out.println("Task object created: " + taskName);
     }
 
-   
     public void displayTask() {
         System.out.println("Task: " + taskName + ", Duration: " + duration + " hours");
     }
 
     public static void main(String[] args) {
-    
+
         MemoryManagementDemo task1 = new MemoryManagementDemo("Study Java", 3);
         MemoryManagementDemo task2 = new MemoryManagementDemo("Exercise", 1);
 
