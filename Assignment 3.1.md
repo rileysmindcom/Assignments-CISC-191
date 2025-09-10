@@ -1,7 +1,7 @@
 # Assignment: 3.1 Memory Management Using Classes
 
 ## My Lab Objective
-Recall by describing how memory management operates in Java through creating objects, observing stacks versus heap memory allocation, and explaining what the Garbage Collector does. And, how does it work?
+Explain how memory management operates in Java through creating objects, observing stacks versus heap memory allocation, and explaining what the Garbage Collector does. And, how does it work?
 
 ## This is my Assignment 3.1 Code
 
