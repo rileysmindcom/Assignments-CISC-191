@@ -48,3 +48,4 @@ public class MemoryManagementDemo {
 The challenges I stumbled upon were: learning how to differentiate stack versus heap memory during object creation. Second, it was to understand how garbage collection behaves, because Java doesn’t always guarantee immediate memory freeing. Testing for nullification at *task1 = null*. This is because I had to go back and observe every effect without causing any exceptions. My last challenge was creating a clear example that demonstrates how memory management works, while making sure everything made sense when testing memory management using classes.
 
 ## My Assignment Video
+https://drive.google.com/file/d/1y0eHVd5k-7CO0x-c7d63L3vNAGh0vMF2/view?usp=drive_link
