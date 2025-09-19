@@ -9,7 +9,6 @@ PhotoInfoConverter.java
 ```
 public class PhotoInfoConverter {
     public static void main(String[] args) {
-        // New list of photo file names
         String[] photoFiles = {
             "Yellowstone2015_photo.jpg",
             "Everglades1999_photo.jpg",
@@ -25,7 +24,6 @@ public class PhotoInfoConverter {
             "RockyMountain1997_photo.jpg"
         };
 
-        // Loop through each file and replace _photo.jpg with _info.txt
         for (String photoName : photoFiles) {
             String infoFileName = photoName.replace("_photo.jpg", "_info.txt");
             System.out.println(infoFileName);
