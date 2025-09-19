@@ -1,7 +1,7 @@
 # Assignment: 4.1 Input and output
 
 ## My Lab Objective
-Describe how to edit the contents in a file by reading the names of each file from *_photo.jpg* into a text file. By replacing the parts of the string, and outputting those named modified into *_info.txt*
+Describe how to edit the contents in a file by reading the names of each file from *_photo.jpg* into a text file. By replacing the parts of the string, and outputting those converted into *_info.txt*
 
 ## This is my Assignment 4.1 Code
 
