@@ -7,29 +7,28 @@ Understand how to edit contents in a text file by reading file names from a text
 
 PhotoInfoConverter.java
 ```
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 public class PhotoInfoConverter {
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
-        System.out.print("Enter file name: ");
-        String fileName = scnr.nextLine();
+        // New list of photo file names
+        String[] photoFiles = {
+            "Yellowstone2015_photo.jpg",
+            "Everglades1999_photo.jpg",
+            "GlacierBay2001_photo.jpg",
+            "MesaVerde2018_photo.jpg",
+            "Olympic1994_photo.jpg",
+            "Shenandoah2007_photo.jpg",
+            "Denali2012_photo.jpg",
+            "Sequoia1988_photo.jpg",
+            "BryceCanyon2010_photo.jpg",
+            "Zion2005_photo.jpg",
+            "GreatSmokyMountains2003_photo.jpg",
+            "RockyMountain1997_photo.jpg"
+        };
 
-        try {
-            File inputFile = new File(fileName);
-            Scanner fileScanner = new Scanner(inputFile);
-
-            while (fileScanner.hasNextLine()) {
-                String photoName = fileScanner.nextLine();
-                String infoFileName = photoName.replace("_photo.jpg", "_info.txt");
-                System.out.println(infoFileName);
-            }
-
-            fileScanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found: " + fileName);
+        // Loop through each file and replace _photo.jpg with _info.txt
+        for (String photoName : photoFiles) {
+            String infoFileName = photoName.replace("_photo.jpg", "_info.txt");
+            System.out.println(infoFileName);
         }
     }
 }
