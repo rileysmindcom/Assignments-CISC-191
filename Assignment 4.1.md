@@ -32,6 +32,7 @@ public class PhotoInfoConverter {
 }
 ```
 ## My Flowchart:
+![Assignment 4 1](https://github.com/user-attachments/assets/76476ded-08e3-4368-899c-ccae92ea74fb)
 
 ## Challenges Faced:
 
