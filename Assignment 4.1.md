@@ -39,4 +39,5 @@ public class PhotoInfoConverter {
 The challenges I faced were making sure that a new photo’s name ended with *_photo.jpg* so its replacement works correctly. Another was choosing whether to read the names of the file or hard-code them while maintaining the program's accuracy. Then I tested carefully to confirm each name was converted correctly into the *_info.txt* format.
 
 ## My Assignment Video Link:
+https://drive.google.com/file/d/1ww-yTbAAICOWGsxaZxBpLjcu-kh2m3gP/view?usp=sharing
 
