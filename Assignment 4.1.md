@@ -1,7 +1,7 @@
 # Assignment: 4.1 Input and output
 
 ## My Lab Objective
-Describe how to edit the contents in a file by reading the names of each file from *_photo.jpg* into a text file. By replacing the parts of the string, and outputting those converted into *_info.txt*
+The objective of this lab is to read photo filenames starting with a text file called *ParkPhotos.txt*, as each filename must contain only letters, and numbers stored on every separate line. Then the program replaces *_photo.jpg* converting the filename to *_info.txt*. If the text file is empty, the program produces no output.
 
 ## This is my Assignment 4.1 Code
 
@@ -57,7 +57,7 @@ RockyMountain1997_photo.jpg
 
 ## Challenges Faced:
 
-The challenges I faced were making sure that a new photo’s name ended with *_photo.jpg* so its replacement works correctly. Another was choosing whether to read the names of the file or hard-code them while maintaining the program's accuracy. Then I tested carefully to confirm each name was converted correctly into the *_info.txt* format.
+The challenges I faced in this lab were making sure each photo filename ended with *_photo.jpg* so the replacement would end effectively. Deciding whether to hard-code the filenames or read them from a text file, then carefully placing ParkPhotos.txt outside of the src folder so the program can find and read each file fully converting them into *_into.txt*.
 
 ## My Assignment Video Link:
 https://drive.google.com/file/d/1ww-yTbAAICOWGsxaZxBpLjcu-kh2m3gP/view?usp=sharing
