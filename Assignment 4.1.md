@@ -31,6 +31,22 @@ public class PhotoInfoConverter {
     }
 }
 ```
+
+*ParkPhotos.txt*
+```Yellowstone2015_photo.jpg
+Everglades1999_photo.jpg
+GlacierBay2001_photo.jpg
+MesaVerde2018_photo.jpg
+Olympic1994_photo.jpg
+Shenandoah2007_photo.jpg
+Denali2012_photo.jpg
+Sequoia1988_photo.jpg
+BryceCanyon2010_photo.jpg
+Zion2005_photo.jpg
+GreatSmokyMountains2003_photo.jpg
+RockyMountain1997_photo.jpg
+```
+
 ## My Flowchart:
 ![Assignment 4 1](https://github.com/user-attachments/assets/76476ded-08e3-4368-899c-ccae92ea74fb)
 
