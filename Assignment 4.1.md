@@ -60,5 +60,5 @@ RockyMountain1997_photo.jpg
 The challenges I faced in this lab were making sure each photo filename ended with *_photo.jpg* so the replacement would end effectively. Deciding whether to hard-code the filenames or read them from a text file, then carefully placing ParkPhotos.txt outside of the src folder so the program can find and read each file fully converting them into *_into.txt*.
 
 ## My Assignment Video Link:
-https://drive.google.com/file/d/1ww-yTbAAICOWGsxaZxBpLjcu-kh2m3gP/view?usp=sharing
+https://drive.google.com/file/d/1UyPwqMUM9Up_gJfmDsOKc66nP8StjBY8/view?usp=drive_link
 
