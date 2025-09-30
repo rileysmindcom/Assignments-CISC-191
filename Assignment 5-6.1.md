@@ -54,6 +54,7 @@ public class StudentDerivationFromPerson {
 ```
 
 ## My Flowchart
+<img width="1152" height="610" alt="Activity 5-6 1 Inheritance" src="https://github.com/user-attachments/assets/a96ebaa4-b259-4ff2-91d2-fe420f318f23" />
 
 
 ## Challenges Faced
