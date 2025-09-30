@@ -1,7 +1,6 @@
 # Assignment: 5-6.1 Inheritance
 ## My Lab Objective
-
-The objective of this lab is to demonstrate how subclasses can inherit data and methods from a superclass. The Person class defines common attributes such as name and age, while the Student class extends Person by adding a unique ID. The program creates a Student object, assigns values, and prints them using both inherited and subclass methods.
+The goal of this lab is to reveal how sub-classes can obtain methods, and data from the parent class. While student classes extend person by adding a unique ID, the person class defines important properties such as name, and age. The application uses a method called sub-classes which constructs student object to assign values, and print them.
 
 ## This is my Assignment 5-6.1 Code
 Person.java
