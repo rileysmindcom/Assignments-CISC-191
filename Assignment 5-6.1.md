@@ -58,6 +58,6 @@ public class StudentDerivationFromPerson {
 
 ## Challenges Faced
 
-The challenges I faced in this lab were: Making sure that the Student class correctly inherited methods from the Person class. Remembering that idNum is private in Student, so it needed getter and setter methods. Handling the output correctly since printAll() doesn’t end with a newline, so I needed a separate println() for the ID.
+Some of the challenges I've faced were verifying that Student class is appropriately imported into methods based from Person class, which is what I felt challenging that occured during this lab, and rewarding at the end when I was able to resolve everything else. Third was making sure that Student's idNum is private, getter and setter methods were required. Then I separated println() for the ID so the console can handle the output correctly because printAll() doesn't terminate with a newline.
 
 ## My Assignment Video Link
