@@ -44,7 +44,7 @@ public class StudentDerivationFromPerson {
       Student courseStudent = new Student();
 
       courseStudent.setName("Arnold");
-      courseStudent.setAge(20);
+      courseStudent.setAge(25);
       courseStudent.setID(9999);
 
       courseStudent.printAll();
