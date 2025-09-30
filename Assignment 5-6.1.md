@@ -3,7 +3,7 @@
 The goal of this lab is to reveal how sub-classes can obtain methods, and data from the parent class. While student classes extend person by adding a unique ID, the person class defines important properties such as name, and age. The application uses a method called sub-classes which constructs student object to assign values, and print them.
 
 ## This is my Assignment 5-6.1 Code
-Person.java
+* Person.java *
 ```
 public class Person {
    private int ageYears;
