@@ -1,4 +1,4 @@
-# Assignment: 5-6.2 Inheritance – Course Example
+# Assignment: 5-6.2 Derived Classes
 
 ## My Lab Objective
 
