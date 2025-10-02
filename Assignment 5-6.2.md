@@ -109,3 +109,4 @@ public class CourseDemo {
 The challenges were making sure OfferedCourse was able to add its own fields while properly drawing on Course's methods. When packaging, I had to keep in mind of employing private fields with the getter, and setter methods. Another was using super.printInfo() to replace printInfo() without taking a risk of erasing the original output from Course necessarily. Then ensuring everything had appropriate spacing that would fit the consoles output, that would match a similar desired output related to *Derived Classes*
 
 ## My Assignment Video Link
+https://drive.google.com/file/d/1BH9Hdx4MkzcB0D3T8KabU9zAFVe9xEDI/view?usp=drive_link
