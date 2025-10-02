@@ -2,7 +2,7 @@
 
 ## My Lab Objective
 
-The goal of this lab is to demonstrate how derived classes can inherit methods and data from a base class. In this lab, the Course class stores general course information such as course number and title. The derived class OfferedCourse extends Course by adding instructor, location, and class time information. The application constructs objects for both Course and OfferedCourse to assign values and print them.
+The objective of this lab is to explain how derived classes can inherit data, and methods from a base class. General Course data involves with a course number, and title all stored into lab Course class. By combining details with the instructor name, location, class time, and the derived class called *OfferedCourse* to expand that course. To keep everything assigned, and print data to the application creating objects to both course, and OfferedCourse.
 
 ## This is my Assignment 5-6.2 Code
 
