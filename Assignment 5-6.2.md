@@ -102,7 +102,7 @@ public class CourseDemo {
 ```
 
 ## My Flowchart
-
+<img width="1063" height="515" alt="Activity 5-6 2 Inheritance" src="https://github.com/user-attachments/assets/ac4deaf6-a92c-441a-8969-b419e3507bb8" />
 
 ## Challenges Faced
 
