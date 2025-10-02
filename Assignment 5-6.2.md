@@ -2,7 +2,7 @@
 
 ## My Lab Objective
 
-The objective of this lab is to explain how derived classes can inherit data, and methods from a base class. General Course data involves with a course number, and title all stored into lab Course class. By combining details with the instructor name, location, class time, and the derived class called *OfferedCourse* to expand that course. To keep everything assigned, and print data to the application creating objects to both course, and OfferedCourse.
+The objective of this lab is to explain how derived classes can inherit data, and methods from a base class. General Course data involves with a course number, and title all stored into lab Course class. By combining details with the instructor name, location, class time, and the derived class called *OfferedCourse* to expand that course. To keep everything assigned, and print data to the application creating objects to both Course, and OfferedCourse.
 
 ## This is my Assignment 5-6.2 Code
 
@@ -106,6 +106,6 @@ public class CourseDemo {
 
 ## Challenges Faced
 
-Ensuring that OfferedCourse properly inherited methods from Course and could still add its own fields. Remembering to use private fields with getter and setter methods for proper encapsulation. Overriding printInfo() without losing the original output from Course required using super.printInfo(). Ensuring the console output formatting matched the expected output with proper indentation.
+The challenges were making sure OfferedCourse was able to add its own fields while properly drawing on Course's methods. When packaging, I had to keep in mind of employing private fields with the getter, and setter methods. Another was using super.printInfo() to replace printInfo() without taking a risk of erasing the original output from Course necessarily. Then ensuring everything had appropriate spacing that would fit the consoles output, that would match a similar desired output related to *Derived Classes*
 
 ## My Assignment Video Link
