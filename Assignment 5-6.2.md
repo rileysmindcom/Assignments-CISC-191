@@ -12,7 +12,6 @@ public class Course {
     private String courseNumber;
     private String courseTitle;
 
-    // Setter methods
     public void setCourseNumber(String number) {
         courseNumber = number;
     }
@@ -21,7 +20,6 @@ public class Course {
         courseTitle = title;
     }
 
-    // Getter methods
     public String getCourseNumber() {
         return courseNumber;
     }
@@ -30,7 +28,6 @@ public class Course {
         return courseTitle;
     }
 
-    // Print course info
     public void printInfo() {
         System.out.println("Course Information:");
         System.out.println("   Course Number: " + courseNumber);
@@ -46,7 +43,6 @@ public class OfferedCourse extends Course {
     private String location;
     private String classTime;
 
-    // Setter methods
     public void setInstructorName(String name) {
         instructorName = name;
     }
@@ -59,7 +55,6 @@ public class OfferedCourse extends Course {
         classTime = time;
     }
 
-    // Getter methods
     public String getInstructorName() {
         return instructorName;
     }
@@ -72,7 +67,6 @@ public class OfferedCourse extends Course {
         return classTime;
     }
 
-    // Override printInfo to include additional info
     @Override
     public void printInfo() {
         super.printInfo();
@@ -89,21 +83,22 @@ public class CourseDemo {
     public static void main(String[] args) {
 
         Course course1 = new Course();
-        course1.setCourseNumber("ECE287");
-        course1.setCourseTitle("Digital Systems Design");
+        course1.setCourseNumber("CS101");
+        course1.setCourseTitle("Introduction to Programming");
         course1.printInfo();
 
         System.out.println();
 
         OfferedCourse course2 = new OfferedCourse();
-        course2.setCourseNumber("ECE387");
-        course2.setCourseTitle("Embedded Systems Design");
-        course2.setInstructorName("Mark Patterson");
-        course2.setLocation("Wilson Hall 231");
-        course2.setClassTime("WF: 2-3:30 pm");
+        course2.setCourseNumber("CS202");
+        course2.setCourseTitle("Data Structures");
+        course2.setInstructorName("Ralph Anderson");
+        course2.setLocation("Room 101");
+        course2.setClassTime("MWF: 10-11:30 am");
         course2.printInfo();
     }
 }
+
 ```
 
 ## My Flowchart
