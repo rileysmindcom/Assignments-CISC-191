@@ -2,7 +2,7 @@
 ## My Lab Objective
 The main goal of this lab is to create a base class called *Book*, and a derived class such as Encyclopedia to practice method overriding. The Encyclopedia class takes information from the book, and adds its own fields in addition to count pages for the book storing title, publisher author, and release date. The importance of this experiment is to explain how derived classes can expand the abilities out of a base class by customizing the printInfo() method.
 
-## This is my Assignment Code
+## This is my Assignment 5-6.3 Code
 
 *Book.java*
 
