@@ -93,6 +93,7 @@ public class BookDemo {
 
 ```
 ## My Flowchart:
+<img width="1165" height="609" alt="Activity 5-6 3 Overriding" src="https://github.com/user-attachments/assets/5a5e54ff-a8a7-40fd-bbfe-d643444e71a9" />
 
 ## Challenges Faced:
 My first challenge was to make sure that Encyclopedia was modified printInfo() as a method to the book information without duplicating any written code. I solved this by adding Encyclopedia information after reusing the parent class as an output with super.printInfo(). Then carefully controlling the input order to make sure the scanner works correctly that reads the string, and int data presented.
