@@ -1,6 +1,6 @@
 # Assignment: 5-6.3: Overriding methods
 ## My Lab Objective
-
+The main goal of this lab is to create a base class called *Book*, and a derived class such as Encyclopedia to practice method overriding. The Encyclopedia class takes information from the book, and adds its own fields in addition to count pages for the book storing title, publisher author, and release date. The importance of this experiment is to explain how derived classes can expand the abilities out of a base class by customizing the printInfo() method.
 
 ## This is my Assignment Code
 
@@ -56,76 +56,43 @@ public class Encyclopedia extends Book {
     private String edition;
     private int numPages;
 
-    public void setEdition(String edition) {
-        this.edition = edition;
-    }
-
-    public void setNumPages(int pages) {
-        this.numPages = pages;
-    }
-
-    public String getEdition() {
-        return edition;
-    }
-
-    public int getNumPages() {
-        return numPages;
-    }
+    public void setEdition(String edition) { this.edition = edition; }
+    public void setNumPages(int pages) { this.numPages = pages; }
+    public String getEdition() { return edition; }
+    public int getNumPages() { return numPages; }
 
     @Override
     public void printInfo() {
-        System.out.println("--- Encyclopedia Record ---");
-        System.out.println("   Title: " + getTitle());
-        System.out.println("   Written by: " + getAuthor());
-        System.out.println("   Published by: " + getPublisher());
-        System.out.println("   Date of Publication: " + getPublicationDate());
-        System.out.println("   Edition: " + edition);
-        System.out.println("   Total Pages: " + numPages);
+
+        super.printInfo();
+
+        System.out.println("Edition: " + edition);
+        System.out.println("Total Pages: " + numPages);
     }
 }
+
 ```
 
 BookDemo.java
 
 ```
-import java.util.Scanner;
-
 public class BookDemo {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        String title1 = sc.nextLine().split("Title: ")[1];
-        String author1 = sc.nextLine().split("Written by: ")[1];
-        String publisher1 = sc.nextLine().split("Published by: ")[1];
-        String pubDate1 = sc.nextLine().split("Date of Publication: ")[1];
-
-        Book book1 = new Book();
-        book1.setTitle(title1);
-        book1.setAuthor(author1);
-        book1.setPublisher(publisher1);
-        book1.setPublicationDate(pubDate1);
         
-        String title2 = sc.nextLine().split("Title: ")[1];
-        String author2 = sc.nextLine().split("Written by: ")[1];
-        String publisher2 = sc.nextLine().split("Published by: ")[1];
-        String pubDate2 = sc.nextLine().split("Date of Publication: ")[1];
-        String edition = sc.nextLine().split("Edition: ")[1];
-        int pages = Integer.parseInt(sc.nextLine().split("Total Pages: ")[1]);
+        Encyclopedia encyclopedia = new Encyclopedia();
+        encyclopedia.setTitle("The Illustrated Encyclopedia of the Universe");
+        encyclopedia.setAuthor("Ian Ridpath");
+        encyclopedia.setPublisher("Watson-Guptill");
+        encyclopedia.setPublicationDate("2001");
+        encyclopedia.setEdition("2nd");
+        encyclopedia.setNumPages(384);
 
-        Encyclopedia encyclopedia1 = new Encyclopedia();
-        encyclopedia1.setTitle(title2);
-        encyclopedia1.setAuthor(author2);
-        encyclopedia1.setPublisher(publisher2);
-        encyclopedia1.setPublicationDate(pubDate2);
-        encyclopedia1.setEdition(edition);
-        encyclopedia1.setNumPages(pages);
-
-        book1.printInfo();
-        System.out.println();
-        encyclopedia1.printInfo();
+        encyclopedia.printInfo();
     }
 }
+
 ```
 ## My Flowchart:
 
 ## Challenges Faced:
+My first challenge was to make sure that Encyclopedia was modified printInfo() as a method to the book information without duplicating any written code. I solved this by adding Encyclopedia information after reusing the parent class as an output with super.printInfo(). Then carefully controlling the input order to make sure the scanner works correctly that reads the string, and int data presented.
