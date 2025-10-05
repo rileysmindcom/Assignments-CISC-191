@@ -99,3 +99,4 @@ public class BookDemo {
 My first challenge was to make sure that Encyclopedia was modified printInfo() as a method to the book information without duplicating any written code. I solved this by adding Encyclopedia information after reusing the parent class as an output with super.printInfo(). Then carefully controlling the input order to make sure the scanner works correctly that reads the string, and int data presented.
 
 # Assignment Video
+https://drive.google.com/file/d/1OvFnwMtywDL9YgZbON12d4xWTRXFjGyj/view?usp=sharing
