@@ -42,3 +42,4 @@ public class StepCounter {
 The challenges I faced were understanding how to throw and catch exceptions in Java. Compile-time had technical problems at first was caused by failure, and resolved by throwing an exception in the method header. Third was examining how exceptions can spread between different procedures I dealt with, which was easily able to fix. Fourth was making sure the output was formatted correctly into two decimal places for another problem, I used *System.out.printf("%.2f", value)* in my code to fix this. At last was ensuring that users entering negative numbers didn't cause any problems with the software to fail. In my program it was easier to use error management made it easier to observe any problems, and use the try-catch block.
 
 ## Assignment Video
+https://drive.google.com/file/d/1X8h_nv5e9N087_iK0_3uW9BhnpE1v7Le/view?usp=drive_link
