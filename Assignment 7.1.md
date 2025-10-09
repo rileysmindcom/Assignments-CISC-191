@@ -15,7 +15,7 @@ public class StepCounter {
         if (steps < 0) {
             throw new Exception("Exception: Negative step count entered.");
         }
-        return steps / 2000.0; // 2000 steps = 1 mile
+        return steps / 2000.0;
     }
 
     public static void main(String[] args) {
