@@ -1,4 +1,4 @@
-# Assignment: Activity – 7.1 Exceptions
+# Assignment: – 7.1 Exceptions
 
 ## My Lab Objective
 
