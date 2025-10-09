@@ -20,13 +20,16 @@ public class StepCounter {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int steps = sc.nextInt();
+
+        int steps = sc.nextInt(); 
 
         try {
             double miles = stepsToMiles(steps);
             System.out.printf("%.2f\n", miles);
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        } finally {
+            sc.close();
         }
     }
 }
