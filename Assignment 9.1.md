@@ -49,6 +49,7 @@ public class PalindromeChecker {
 
 
 ## My Flowchart:
+<img width="808" height="755" alt="9 1 collections" src="https://github.com/user-attachments/assets/a6726e2c-3004-4983-ad99-f691c96faf78" />
 
 ## Challenges Faced:
 
