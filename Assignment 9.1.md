@@ -56,3 +56,4 @@ public class PalindromeChecker {
 The first challenge I faced was correctly using a Deque to remove and compare the characters the end of the string during this lab experiment. Second was to see a comparison by eliminating all punctuation and spaces to convert letters into lowercase. At last was making sure that the program could solve edge circumstances from single character strings into empty input lines correctly into error-free, which helped a ton with this process.
 
 ## My Assignment Video Link:
+https://drive.google.com/file/d/1Zg-e6_X3kCVhqSwcmvZvnyJrBKRoTVtO/view?usp=drive_link
