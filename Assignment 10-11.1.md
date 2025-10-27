@@ -1,7 +1,7 @@
 # Assignment: 10-11.1 GUI
 ## My Lab Objective
 
-The lab objective is to design a simple Java GUI application using JFrame, JTextField, and ActionListener that allows the user to input their hourly wage and number of hours worked per week, and then calculates and displays their yearly salary. The program takes two user inputs through text fields, performs the calculation when a button is clicked, and displays the result in a label on the interface. The purpose of this assignment is to demonstrate how user interaction and event handling (using ActionListener) work in a GUI environment.
+The lab objective is to create an application in Java using ActionListener, JTextField, and JFrame. That allows the user to enter their hourly rate and weekly hours worked before calculating with the results of annual salary. When two user inputs are entered into text fields. The Programs calculates the results by the click of a button. The purpose of this program is to understand how ActionListener, and user interaction works to calculating someone's Wage and Hours per week to calculate the Salary.
 
 ## This is my Assignment 10-11.1 Code
 
@@ -73,9 +73,10 @@ public class SalaryCalculator extends JFrame implements ActionListener {
 }
 ```
 ## My Flowchart:
+![10-11 1 GUI](https://github.com/user-attachments/assets/98c5d084-8b23-4005-8efe-55e0b03c3c23)
 
 ## Challenges Faced
 
-The main challenge I faced was understanding how to properly use ActionListener to make the button respond to user clicks. I had to ensure that the calculation only happened after the user entered both inputs. Another challenge was preventing the program from crashing when users entered non-numeric values. I solved this by using a try-catch block to handle NumberFormatException and display an error message using JOptionPane. Learning how to organize the components using a GridLayout was slightly confusing at first, but it helped create a cleaner interface once I adjusted the rows and spacing.
+My biggest challenge was figuring out how to use ActionListener correctly so that the button would work effectively that calculates the users salary. Second was making sure that the user was required to provide "*Hours per week*", and "*Hours per Wage$*", before any calculation. This prevents the program to crash when the user enters any non-numerical numbers, and was resolved at the end. I fixed this by using the handling NumberFormatException using the try-catch block using JOptionPane to display the error message. It was confusing at first to understand how to arrange the components using GridLayout, and everything felt such a learning experience understanding how to change rows, spaces, which helped create a clearer interface.
 
 ## My Assignment Video Link
