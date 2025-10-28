@@ -80,3 +80,4 @@ public class SalaryCalculator extends JFrame implements ActionListener {
 My biggest challenge was figuring out how to use ActionListener correctly so that the button would work effectively that calculates the users salary. Second was making sure that the user was required to provide "*Hours per week*", and "*Hours per Wage$*", before any calculation. This prevents the program to crash when the user enters any non-numerical numbers, and was resolved at the end. I fixed this by using the handling NumberFormatException using the try-catch block using JOptionPane to display the error message. It was confusing at first to understand how to arrange the components using GridLayout, and everything felt such a learning experience understanding how to change rows, spaces, which helped create a clearer interface.
 
 ## My Assignment Video Link
+https://drive.google.com/file/d/1M0QSERsgHue7Zcj8Ms2woAdZLJ218r18/view?usp=sharing
