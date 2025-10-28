@@ -1,7 +1,7 @@
 # Assignment: 10-11.2 GUI
 ## My Lab Objective
 
-The lab objective is to create an application in Java using JFormattedTextField, ActionListener, and JFrame. The goal is to allow the user to enter a distance (in miles) and display multiple converted results in kilometers, meters, and feet when a button is clicked. This program helps understand user input handling, formatted text fields, and GUI layout management in Java.
+The lab objective goal is to use JFormattedTextField, ActionListener, and JFrame to develop an application in Java. The process is the user inputs their distance into miles through the click of a button, which shows how many converted values are in kilograms, feet, and meters. The purpose of this program is to understand how Jave text fields, Gui layout managements, and user inputs play an important role into calculating the users distance in miles to getting the results of Kilometers, Meters, and Feet.
 
 ## This is my Assignment 10-11.2 Code
 
@@ -79,6 +79,7 @@ public class DistanceConverter extends JFrame implements ActionListener {
 ```
 
 ## Flowchart
+![Assignment 10-11 2](https://github.com/user-attachments/assets/da65e580-a816-4b28-964c-da2cfadf2c16)
 
 ## Challenges Faced
-My main challenge was learning how to use JFormattedTextField instead of a regular JTextField. Understanding how formatted input works with NumberFormat was confusing at first because it stores numerical values as Number objects rather than plain text. Another challenge was getting the layout organized clearly using GridLayout and aligning labels neatly on the screen.Additionally, I had to remember to handle invalid input correctly and prevent the program from crashing if the field was left blank or contained text. Using a try-catch block with JOptionPane made the interface more user-friendly by displaying error messages instead of closing the program. Overall, this lab helped me improve my understanding of formatted user input, GUI layouts, and action events in Java.
+Some of the challenges were learning how to use the JFormmatedTextField instead of the JText Field because the NUmberformat maintains numerical data just as Number objects as plain text, which made sense when I was able to learn how to use a formatted input for NumberFormat. Second was using the Grid Layout to structure everything with the layout with position labels accurately, which was difficult at first, and easily understandable structuring everything out. Third was figuring out how to properly handle invalid inputs to keep the software from crashing if any fields were left empty including text. Fourth was using the try-catch block with the JOptionPane, which displayed error messages at first instead of shutting down the application, which was resolved. At last everything else has taught me how to understand Java action events, structured user inputs, and GUI layouts.
