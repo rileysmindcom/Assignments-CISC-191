@@ -3,7 +3,7 @@
 ## My Lab Objective
 My lab objective is to develop an application in java that transforms distance in miles to kilometers by using ActionListener, JSpinner, and JFrame. The spinner tool application allows the user to enter their distance. In a click of a button, shows how everything is converted into Kilometers. This helps with understanding how Java GUI elements play an important role in event handling layout management, and spinners to receive numerical input values to carry out calculations from someone at a distance amount to kilograms.
 
-## Here is my Assignment 10.11.3 Code
+## Here is my Assignment 10-11.3 Code
 *DistanceSpinnerConverter.java*
 
 ```
