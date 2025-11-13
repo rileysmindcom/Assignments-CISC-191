@@ -4,7 +4,7 @@
 My lab objective is to write a program in java that executes an insertion sort on an integer array to understand how sequential workings connects with sorting algorithms. This software executes the insertion sort to print each intermediate state of the array to read the array's size, and its elements producing the original array, and then showing the total number of comparisons with swaps created by the sorting process. At last is using the output formatting to convert the sorting theory.
 
 ## My 12.1 Assignment Code: 
-
+*InsertionSort.java*
 ```
 import java.util.Scanner;
 
