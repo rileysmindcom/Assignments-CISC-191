@@ -9,52 +9,52 @@ My lab objective is to write a program in java that executes an insertion sort o
 import java.util.Scanner;
 
 public class InsertionSort {
-   public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-      int size = sc.nextInt();
-      int[] arr = new int[size];
+        int size = sc.nextInt();
+        int[] arr = new int[size];
 
-      for (int i = 0; i < size; i++) {
-         arr[i] = sc.nextInt();
-      }
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
 
-      printArray(arr);
+        printArray(arr);
 
-      int comparisons = 0;
-      int swaps = 0;
+        int comparisons = 0;
+        int swaps = 0;
 
-      for (int i = 1; i < size; i++) {
-         int key = arr[i];
-         int j = i - 1;
+        for (int i = 1; i < size; i++) {
+            int key = arr[i];
+            int j = i - 1;
 
-         while (j >= 0) {
-            comparisons++;
-
-            if (arr[j] > key) {
-               arr[j + 1] = arr[j];
-               swaps++;
-               j--;
-            } else {
-               break;
+            while (j >= 0 && arr[j] > key) {
+                comparisons++;
+                arr[j + 1] = arr[j]; 
+                swaps++;
+                j--;
             }
-         }
 
-         arr[j + 1] = key;
+            if (j >= 0) {
+                comparisons++;
+            }
 
-      }
+            arr[j + 1] = key;
 
-      System.out.println();
-      System.out.println("comparisons: " + comparisons);
-      System.out.println("swaps: " + swaps);
-   }
+            printArray(arr);
+        }
 
-   public static void printArray(int[] arr) {
-      for (int x : arr) {
-         System.out.print(x + " ");
-      }
-      System.out.println();
-   }
+        System.out.println();
+        System.out.println("comparisons: " + comparisons);
+        System.out.println("swaps: " + swaps);
+    }
+
+    public static void printArray(int[] arr) {
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
 }
 ```
 
