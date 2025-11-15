@@ -88,7 +88,7 @@ public class MergeSort {
 ```
 
 ## Flowchart:
-
+![12 2 Diagram](https://github.com/user-attachments/assets/6fcb0108-f3be-4c20-bc87-b88db42e89ad)
 
 ## Challenges Faced:
 
