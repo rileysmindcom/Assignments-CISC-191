@@ -93,3 +93,6 @@ public class MergeSort {
 ## Challenges Faced:
 
 The first challenge I've struggled was using the recursive to division to the array into smaller portions, which helped me a lot to understand what went wrong. Second was keeping track of the left, right, and mid points carefully through the design because the merge sort is a divide algorithm. Since this is the main area where comparisons take place, makes it easier to execute any procedures. Every merge I had to make sure the comparisons counter rose was appropriately presented in the operations. Another difficulty was organizing the left and right arrays when merging all remaining elements were copied after the main loop was presented. In order to ensure that the output was format correctly. At last was testing my code using the sample format to consider everything worked out well. Which, helped me improve my understanding between the recursive and merge sort algorithms while using insertion sort.
+
+## My Assignment Video Link: 
+https://drive.google.com/file/d/1kOYGgHKp5zxXSWIA2dfIB3NQSDjxxAMX/view?usp=sharing
