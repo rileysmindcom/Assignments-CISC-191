@@ -60,5 +60,6 @@ public class DatabaseConnection {
 ![Database 13-14 1](https://github.com/user-attachments/assets/3c57815b-e9bb-43e4-a134-e6252e3e9715)
 
 ## Challenges Faced
+The first challenge I've faced with Database Connections was first ensuring that the MySQL JDBC driver was added into the project build path, which I had to correctly install to get things working. Without it the Java program would not be able to connect to the Miramar database. Second was that it was necessary to transform the birth-date into YYYY-MM-DD, format based on DOB, which was necessary to make things compatible with MySQL. My third issue was the SQL issues result from using the incorrect format to prevent any SQL injection issues, learning how to properly use the teacher example information of Database work to get the result of successfully connected. Fourth was using placeholders created in the SQL statements as an easier way of understanding how to update the accurate document that would be important for the SSN, in the WHERE clause to make sure the record of Philip Collins is updated, without creating unintentional modifications.
 
 ## My Assignment Video Link:
