@@ -1,4 +1,4 @@
-# Lab 13-14.1: Manipulating Databases Using Java
+# Assignment 13-14.1: Manipulating Databases Using Java
 ## My Lab Objective
 
 ## My Assignment 13-14.1 Code
