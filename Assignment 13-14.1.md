@@ -1,5 +1,6 @@
 # Assignment: Manipulating Databases Using Java 13-14.1
 ## My Lab Objective
+My goal of this lab is to understand how java can use MySQL J Connector to connect with a database by adding, and updating existing records. This lab uses the Miramar database and student table. To explore how SQL statements run, and work inside of Java by inserting student information as the teacher example, "Philip David Charles Collins", to modify his current zip code.
 
 ## My Assignment 13-14.1 Code
 *DatabaseConnection.java*
@@ -56,6 +57,7 @@ public class DatabaseConnection {
 }
 ```
 ## My Flowchart
+![Database 13-14 1](https://github.com/user-attachments/assets/3c57815b-e9bb-43e4-a134-e6252e3e9715)
 
 ## Challenges Faced
 
