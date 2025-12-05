@@ -34,7 +34,7 @@ public class DatabaseConnection {
             insertStmt.setString(2, "Philip");
             insertStmt.setString(3, "David Charles");
             insertStmt.setString(4, "Collins");
-            insertStmt.setString(5, "1951-01-30"); // format: YYYY-MM-DD
+            insertStmt.setString(5, "1951-01-30"); 
             insertStmt.setString(6, "NA");
             insertStmt.setString(7, "NA");
             insertStmt.setString(8, "NA");
